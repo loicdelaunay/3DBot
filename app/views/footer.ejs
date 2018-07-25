@@ -2,8 +2,24 @@
 
 <script>
     const ipc = require('electron').ipcRenderer;
-    if (typeof module === 'object') {window.module = module; module = undefined;}
+    if (typeof module === 'object') {
+        window.module = module;
+        module = undefined;
+    }
 </script>
+
+
+<%if (infos.env === "dev"){ %>
+
+<!-- Socket.IO DEV-->
+<script type="text/javascript" src="js/SocketIO/socket.io_dev.js"></script>
+
+<%} else { %>
+
+<!-- Socket.IO -->
+<script type="text/javascript" src="js/SocketIO/socket.io.js"></script>
+
+<% } %>
 
 <!-- JQuery -->
 <script type="text/javascript" src="js/Jquery/jquery.js"></script>
@@ -24,7 +40,12 @@
 <!-- Include my js -->
 <script type="text/javascript" src="js/MyJS/header.js"></script>
 
-<script>if (window.module) module = window.module;</script>
+<script>
+
+    const socket = io();
+    if (window.module) module = window.module;
+
+</script>
 
 
 </body>

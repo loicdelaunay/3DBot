@@ -1,10 +1,18 @@
 global.module.express_app.set('views', global.appRoot + '/app/views/');
 global.module.express_app.use(global.module.express.static(global.appRoot + '/app/'));
 
-global.module.express_app.get('/', function (req, res) {
-    res.render('index.ejs');
-})
+var infos = {
+    env: process.env.NODE_ENV
+};
 
-global.module.express_app.listen(3000, function () {
-    console.log('3Dbot running on port : 3000')
-})
+
+
+global.module.express_app.get('/', function (req, res) {
+    res.render('index.ejs',{
+        infos : infos
+    });
+});
+
+global.module.http.listen(global.setting.port, function () {
+    global.mymodule.logmanager.addLog('3DBot running on port : ' + global.setting.port,global.enum.type.info,global.enum.context.database);
+});

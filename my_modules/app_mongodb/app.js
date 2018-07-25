@@ -1,7 +1,7 @@
 global.module.mongoClient.connect("mongodb://localhost/3dbot", function(error, db) {
     if (error){
-        console.error("Not connected to 3dbot database ! Please launch mongodb or create a database")
+        global.mymodule.logmanager.addLog("3Dbot can't find database :( working in amnesia mode ... error : " + error,global.enum.type.error,global.enum.context.database);
     }else{
-        console.log("Connected to the 3dbot database");
+        global.mymodule.logmanager.addLog("Connected to the 3dbot database",global.enum.type.info,global.enum.context.database);
     }
 });
