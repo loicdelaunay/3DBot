@@ -2701,7 +2701,7 @@
                  */
 
                 Socket.prototype.setTransport = function (transport) {
-                    debug('setting transport %s', transport.name);
+                    debug('config transport %s', transport.name);
                     var self = this;
 
                     if (this.transport) {
@@ -2988,7 +2988,7 @@
                 Socket.prototype.onDrain = function () {
                     this.writeBuffer.splice(0, this.prevBufferLen);
 
-                    // setting prevBufferLen = 0 is very important
+                    // config prevBufferLen = 0 is very important
                     // for example, when upgrading, upgrade packet is sent over,
                     // and a nonzero prevBufferLen could cause problems on `drain`
                     this.prevBufferLen = 0;

@@ -3933,7 +3933,7 @@ module.exports = function(Chart) {
 
 			if (!context || !canvas) {
 				// The given item is not a compatible context2d element, let's return before finalizing
-				// the chart initialization but after setting basic chart / controller properties that
+				// the chart initialization but after config basic chart / controller properties that
 				// can help to figure out that the chart is not valid (e.g chart.canvas !== null);
 				// https://github.com/chartjs/Chart.js/issues/2807
 				console.error("Failed to create chart: can't acquire context from the given item");
@@ -5936,7 +5936,7 @@ function getNearestItems(chart, position, intersect, distanceMetric) {
 
 /**
  * Get a distance metric function for two points based on the
- * axis mode setting
+ * axis mode config
  * @param {String} axis the axis mode. x|y|xy
  */
 function getDistanceMetricForAxis(axis) {
@@ -9427,7 +9427,7 @@ module.exports = Element.extend({
 		}
 
 		// Canvas doesn't allow us to stroke inside the width so we can
-		// adjust the sizes to fit if we're setting a stroke on the line
+		// adjust the sizes to fit if we're config a stroke on the line
 		if (borderWidth) {
 			// borderWidth shold be less than bar width and bar height.
 			var barSize = Math.min(Math.abs(left - right), Math.abs(top - bottom));
@@ -10896,7 +10896,7 @@ module.exports = {
 
 		// The canvas render size might have been changed (and thus the state stack discarded),
 		// we can't use save() and restore() to restore the initial state. So make sure that at
-		// least the canvas context is reset to the default state by setting the canvas width.
+		// least the canvas context is reset to the default state by config the canvas width.
 		// https://www.w3.org/TR/2011/WD-html5-20110525/the-canvas-element.html
 		canvas.width = canvas.width;
 

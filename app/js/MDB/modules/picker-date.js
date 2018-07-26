@@ -385,7 +385,7 @@
 
 
     /**
-     * Normalize a date by setting the hours to midnight.
+     * Normalize a date by config the hours to midnight.
      */
     DatePicker.prototype.normalize = function (value /*, options*/ ) {
         value.setHours(0, 0, 0, 0)

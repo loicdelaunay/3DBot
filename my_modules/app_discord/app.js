@@ -1,44 +1,23 @@
-const bot = new global.module.discord.Client();
+global.module.discord.bot = new global.module.discord.Client();
+global.module.discord.messageResponse = require(global.appRoot + '/my_modules/app_discord/modules/discordMessageResponse');
+global.module.discord.commandResponse = require(global.appRoot + '/my_modules/app_discord/modules/discordCommandResponse');
+global.module.discord.embed = require(global.appRoot + '/my_modules/app_discord/modules/discordEmbed');
+global.module.discord.permission = require(global.appRoot + '/my_modules/app_discord/modules/discordPermission');
 
-bot.on('ready', function () {
-    global.mymodule.logmanager.addLog('Bot Discord Ready', global.enum.type.info, global.enum.context.discordjs);
+global.module.discord.bot.on('ready', function () {
+    global.mymodule.logmanager.addLog('Bot Discord Ready', global.enum.type.success, global.enum.context.discordjs);
 });
-bot.login(global.setting.discordToken);
+global.module.discord.bot.login(global.config.discordToken);
 
-
-//Router message
-bot.on('message', message => {
-    if (message.content === 'ping') {
-        message.reply('pong !');
-        discordEmbed('pong', 0x42c2f4, "test", fields, message.channel);
-    }
-});
-
-/**
- * Send embed discord message
- * @param title title of the embed
- * @param color color of teh embed
- * @param description description of the embed
- * @param fields fileds off the embed field = {name,value}
- * @param channel channel where message send
- */
-function discordEmbed(title, color, description, fields, channel) {
-    let embed = new global.module.discord.RichEmbed()
-        .setTitle("   ❓   " + title + ":   ❓   ")
-        .setColor(color)
-        .setDescription(description)
-        .setFooter('© 3DBOT copyright Dream')
-        .setTimestamp()
-
-        .addField('\u200B', '\u200B');
-
-    fields.forEach(function (field) {
-        embed.addField(field.name, field.value)
+try {
+    //Router message
+    global.module.discord.bot.on('message', message => {
+        if(message.content.startsWith(global.config.discordCommand)){
+            global.module.discord.commandResponse.give(message);
+        }else{
+            global.module.discord.messageResponse.give(message);
+        }
     });
-
-    embed.addField('\u200B', '\u200B');
-
-    channel.send({
-        embed
-    });
+} catch (e) {
+    global.mymodule.logmanager.addLog("Error Discord App : " + e, global.enum.type.critical, global.enum.context.discordjs);
 }

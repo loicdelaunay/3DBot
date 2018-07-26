@@ -13,6 +13,6 @@ global.module.express_app.get('/', function (req, res) {
     });
 });
 
-global.module.http.listen(global.setting.port, function () {
-    global.mymodule.logmanager.addLog('3DBot running on port : ' + global.setting.port,global.enum.type.info,global.enum.context.database);
+global.module.http.listen(global.config.port, function () {
+    global.mymodule.logmanager.addLog('3DBot running on port : ' + global.config.port,global.enum.type.info,global.enum.context.database);
 });

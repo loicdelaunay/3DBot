@@ -21,12 +21,12 @@ class logManager {
         }
 
         try {
-            if (type !== 'INFO' && type !== 'ERROR' && type !== 'WARNING' && type !=='CRITICAL') {
+            if (type !== 'INFO' && type !== 'SUCCESS' && type !== 'ERROR' && type !== 'WARNING' && type !=='CRITICAL') {
                 throw new NotAValidType();
             }
         } catch (e) {
             if (e instanceof NotAValidType) {
-                console.error('Error logmanager type invalid for the message : ' + message + ' and type : ' + type + 'please use INFO/ERROR/WARNING/CRITICAL');
+                console.error('Error logmanager type invalid for the message : ' + message + ' and type : ' + type + 'please use INFO/SUCCESS/ERROR/WARNING/CRITICAL');
             }
         }
 
@@ -49,6 +49,13 @@ class logManager {
                     console.log('[ ' + chalk.blue(log.type) + ' ] : ' + log.message);
                 }else{
                     console.log('[ ' + chalk.blue(log.type) + ' ]' + ' [ ' + chalk.blue(log.context) + ' ] : ' + log.message);
+                }
+                break;
+            case "SUCCESS":
+                if(log.context === ""){
+                    console.log('[ ' + chalk.green(log.type) + ' ] : ' + log.message);
+                }else{
+                    console.log('[ ' + chalk.green(log.type) + ' ]' + ' [ ' + chalk.green(log.context) + ' ] : ' + log.message);
                 }
                 break;
             case "WARNING":

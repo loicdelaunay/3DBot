@@ -1,7 +1,7 @@
 global.module = [];
 global.mymodule = [];
 
-console.log('\n/**** Starting 3Dbot ' + global.setting.versionApp + ' ... ****/');
+console.log('\n/**** Starting 3Dbot ' + global.config.versionApp + ' ... ****/');
 
 console.log('\n-------------- Loading modules --------------\n');
 
@@ -11,14 +11,17 @@ try{
     global.module.path = require('path');
     global.appRoot = global.module.path.dirname(require.main.filename);
 
+    console.log('loading log manager ...');
+    global.mymodule.logmanager = require(global.appRoot + '/my_modules/log_manager/app');
+
     console.log('loading filesytem ...');
     global.module.fs = require('fs');
 
     console.log('loading my enumerator ...');
     require(global.appRoot + '/my_modules/my_enumerator/app');
 
-    console.log('loading log manager ...');
-    global.mymodule.logmanager = require(global.appRoot + '/my_modules/log_manager/app');
+    console.log('loading my class ...');
+    require(global.appRoot + '/my_modules/my_class/app');
 
     console.log('loading mongodb ...');
     global.module.mongoClient = require('mongodb').MongoClient;
@@ -34,6 +37,9 @@ try{
 
     console.log('loading electron ipc ...');
     global.module.electron_ipcMain = global.module.electron.ipcMain;
+
+    console.log('loading electron remote ...');
+    global.module.electron_remote = global.module.electron.remote;
 
     console.log('loading express ...');
     global.module.express = require('express');
@@ -63,6 +69,7 @@ try{
     console.log('loading my socket io app ...');
     global.mymodule.socketio = require(global.appRoot + '/my_modules/app_socketio/app');
 
+    console.log('All modules are loaded !');
 }catch (e) {
     console.error('Error loading module ' + e)
 }
