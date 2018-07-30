@@ -2,27 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0faf22e0-cb22-46a2-b74f-5dc5fd80cd8f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/my_modules/app_discord/modules/discordCommandResponse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_modules/app_discord/modules/discordEmbed.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_modules/app_discord/modules/discordMessageResponse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_modules/app_discord/modules/discordPermission.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_modules/my_class/classes/field.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/MDB/addons/datatables.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/MDB/addons/datatables.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/MDB/mdb.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/MDB/mdb.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/MDB/mdb.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/MDB/mdb.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/MDB/modules/chart.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/MDB/modules/chart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/MDB/modules/picker-date.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/MDB/modules/picker-date.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/MDB/modules/scrollbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/MDB/modules/scrollbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/SocketIO/socket.io.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/SocketIO/socket.io.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/SocketIO/socket.io_dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/SocketIO/socket.io_dev.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_modules/app_discord/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/my_modules/app_discord/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_modules/app_discord/modules/discord_autoResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/my_modules/my_class/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_modules/app_express/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/my_modules/app_express/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_modules/log_manager/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/my_modules/log_manager/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_modules/module_loader/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/my_modules/module_loader/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_modules/my_enumerator/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/my_modules/my_enumerator/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_modules/app_discord/modules/discordCommandResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/my_modules/app_discord/modules/discordCommandResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_modules/app_discord/modules/discordEmbed.js" beforeDir="false" afterPath="$PROJECT_DIR$/my_modules/app_discord/modules/discordEmbed.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,34 +17,35 @@
     <session id="2038389075">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.8" value="3" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="ejs" value="2" />
-          <entry key="js" value="35" />
+          <entry key="js" value="36" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="EJS" value="2" />
-          <entry key="JavaScript" value="35" />
+          <entry key="JavaScript" value="36" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="ejs" value="115" />
-          <entry key="js" value="7432" />
+          <entry key="js" value="8034" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="EJS" value="115" />
-          <entry key="JavaScript" value="7432" />
+          <entry key="JavaScript" value="8034" />
         </counts>
       </usages-collector>
     </session>
@@ -81,7 +65,7 @@
         <entry file="file://$PROJECT_DIR$/my_modules/app_discord/modules/discordMessageResponse.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="247">
-              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -89,8 +73,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my_modules/app_discord/modules/discordEmbed.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+            <state relative-caret-position="855">
+              <caret line="45" column="48" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -98,17 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my_modules/module_loader/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
+            <state relative-caret-position="608">
               <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my_modules/my_enumerator/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -117,7 +92,7 @@
         <entry file="file://$PROJECT_DIR$/my_modules/app_express/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="71" lean-forward="true" selection-start-column="71" selection-end-column="71" />
+              <caret column="71" selection-start-column="71" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -126,7 +101,16 @@
         <entry file="file://$PROJECT_DIR$/my_modules/app_discord/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
-              <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my_modules/app_mongodb/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -135,7 +119,7 @@
         <entry file="file://$PROJECT_DIR$/config/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="361">
-              <caret line="19" column="35" lean-forward="true" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+              <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -143,8 +127,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/my_modules/app_discord/modules/discordCommandResponse.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="695">
-              <caret line="42" column="17" lean-forward="true" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+            <state relative-caret-position="267">
+              <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -152,8 +136,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my_modules/app_discord/modules/discordPermission.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+            <state relative-caret-position="247">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -195,12 +179,12 @@
         <option value="$PROJECT_DIR$/my_modules/my_class/app.js" />
         <option value="$PROJECT_DIR$/my_modules/app_discord/modules/discord_autoResponse.js" />
         <option value="$PROJECT_DIR$/my_modules/app_discord/modules/discordMessageResponse.js" />
-        <option value="$PROJECT_DIR$/my_modules/app_discord/modules/discordEmbed.js" />
         <option value="$PROJECT_DIR$/config/app.js" />
         <option value="$PROJECT_DIR$/my_modules/app_discord/app.js" />
         <option value="$PROJECT_DIR$/my_modules/app_discord/modules/discordPermission.js" />
         <option value="$PROJECT_DIR$/my_modules/module_loader/app.js" />
         <option value="$PROJECT_DIR$/my_modules/app_discord/modules/discordCommandResponse.js" />
+        <option value="$PROJECT_DIR$/my_modules/app_discord/modules/discordEmbed.js" />
       </list>
     </option>
   </component>
@@ -281,6 +265,12 @@
               <item name="3DBot" type="b2602c69:ProjectViewProjectNode" />
               <item name="3DBot" type="462c0819:PsiDirectoryNode" />
               <item name="my_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="app_mongodb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="3DBot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="3DBot" type="462c0819:PsiDirectoryNode" />
+              <item name="my_modules" type="462c0819:PsiDirectoryNode" />
               <item name="log_manager" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -305,15 +295,15 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1532604378480" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1532646318444" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app.js" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -391,12 +381,15 @@
       <workItem from="1532516076359" duration="4091000" />
       <workItem from="1532535105728" duration="72000" />
       <workItem from="1532535289958" duration="12280000" />
-      <workItem from="1532596975594" duration="7142000" />
+      <workItem from="1532596975594" duration="7343000" />
+      <workItem from="1532630106356" duration="167000" />
+      <workItem from="1532644541715" duration="1776000" />
+      <workItem from="1532958200050" duration="81000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24899000" />
+    <option name="totallyTimeSpent" value="27124000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -411,7 +404,7 @@
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.123907864" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12629071" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -422,7 +415,7 @@
       <window_info id="Colour Chooser" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32957292" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33279613" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33279613" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3996777" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -450,18 +443,6 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/my_modules/app_discord/modules/discordCommandResponse.js</url>
-          <line>8</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/my_modules/diff/app.js" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Navbar.url" />
@@ -476,9 +457,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -486,9 +464,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="472">
           <caret line="6662" column="14" selection-start-line="6662" selection-start-column="14" selection-end-line="6662" selection-end-column="14" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -551,13 +526,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my_modules/app_mongodb/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my_modules/log_manager/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="569">
@@ -572,48 +540,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my_modules/app_express/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="71" lean-forward="true" selection-start-column="71" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_modules/app_discord/modules/discordEmbed.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_modules/app_discord/modules/discordMessageResponse.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="35" lean-forward="true" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_modules/app_discord/modules/discordPermission.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_modules/app_discord/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my_modules/app_electron/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -621,17 +547,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/my_modules/app_discord/modules/discordMessageResponse.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_modules/app_discord/modules/discordEmbed.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="45" column="48" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/my_modules/module_loader/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
+        <state relative-caret-position="608">
           <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_modules/app_express/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="71" selection-start-column="71" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_modules/app_discord/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_modules/app_mongodb/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_modules/app_discord/modules/discordPermission.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/my_modules/app_discord/modules/discordCommandResponse.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="695">
-          <caret line="42" column="17" lean-forward="true" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+        <state relative-caret-position="267">
+          <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
         </state>
       </provider>
     </entry>

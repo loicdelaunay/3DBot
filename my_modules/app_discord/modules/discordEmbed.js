@@ -31,6 +31,26 @@ class discordEmbed {
             embed
         });
     }
+
+    sendRoll(valeurs,channel){
+        let tempField = new global.class.field();
+        let index = 1;
+        valeurs.forEach(function(uneValeur){
+            tempField.addField("Dès numéro " + index,uneValeur);
+            index++;
+        });
+        this.sendEmbed("ROLL", 0x42f4ee, "🎲", "Lancé de dés !", tempField, channel);
+    }
+
+    sendInfo(channel){
+        let tempField = new global.class.field();
+        tempField.addField("/roll 'nombres de dés' 'valeur max du dés'", "lance un des");
+        tempField.addField("/monid", "indique votre identifiant Discord");
+        tempField.addField("/permission", "indique votre niveau de permission sur le bot");
+        tempField.addField("/aide", "indique toutes les commandes disponibles");
+        this.sendEmbed("HELP", 0x4286f4, "❓", "Ici vous retrouverez toutes les commandes disponible pour vous", tempField, channel);
+    }
 }
+
 module.exports = new discordEmbed();
 

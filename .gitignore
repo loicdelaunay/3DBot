@@ -1,3 +1,5 @@
 # Gitignore
 
 node_modules/discord\.js/typings/
+
+\.idea/

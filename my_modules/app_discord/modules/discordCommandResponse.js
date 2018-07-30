@@ -11,8 +11,9 @@ class discordCommandResponse {
         switch (command) {
 
             //Lancé de dès aléatoire
-            case 'des':
-                message.reply('Jet de dès de : ' + '');
+            case 'roll':
+                let valeurs = roll(args[1],args[2]);
+                global.module.discord.embed.sendRoll(valeurs,message.channel);
                 break;
 
             // Retourne l'id d'une personne
@@ -44,15 +45,20 @@ class discordCommandResponse {
 
             //Aide par défaut
             default:
-                let tempField = new global.class.field();
-                tempField.addField("/des", "lance un des");
-                tempField.addField("/monid", "indique votre identifiant Discord");
-                tempField.addField("/permission", "indique votre niveau de permission sur le bot");
-                tempField.addField("/aide", "indique toutes les commandes disponibles");
-                global.module.discord.embed.sendEmbed("HELP", 0x4286f4, "❓", "Ici vous retrouverez toutes les commandes disponible pour vous", tempField, message.channel);
+                global.module.discord.embed.sendInfo(message.channel);
                 break;
         }
     }
 }
-
 module.exports = new discordCommandResponse();
+
+function roll(nombreDes,valeurMax){
+
+    let lance = 0;
+    let valeurs = [];
+    while(lance<parseInt(nombreDes)){
+        valeurs.push(Math.floor(Math.random() * Math.floor(valeurMax)));
+        lance++;
+    }
+    return valeurs;
+}
