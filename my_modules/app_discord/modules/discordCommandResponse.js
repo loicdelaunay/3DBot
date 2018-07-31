@@ -31,8 +31,7 @@ class discordCommandResponse {
                     message.reply("Vous n'avez pas le niveau de permission pour cela");
                 }else{
                     message.reply('restart en cours...');
-                    global.module.electron_app.relaunch();
-                    global.module.electron_app.exit(0);
+                    restart();
                 }
 
             case 'stop':
@@ -62,3 +61,10 @@ function roll(nombreDes,valeurMax){
     }
     return valeurs;
 }
+
+function restart(){
+    setTimeout(function(){
+        global.module.electron_app.relaunch();
+        global.module.electron_app.exit(0);
+    },4000);
+};
