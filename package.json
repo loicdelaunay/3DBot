@@ -1,23 +1,24 @@
 {
   "name": "3Dbot",
-  "version": "0.0.1",
-  "description": "projet d upload intelligent vers un serveur de production depuis un dossier de production ",
+  "version": "1.0.0",
+  "description": "Le democratique et diplomatique discord bot",
   "main": "app.js",
   "dependencies": {
+    "bufferutil": "^4.0.0",
     "chalk": "^2.4.1",
     "discord.js": "^11.4.2",
     "ejs": "^2.6.1",
     "express": "^4.16.3",
+    "libsodium": "^0.7.3",
     "mongodb": "^3.1.1",
     "opusscript": "0.0.6",
     "socket.io": "^2.1.1"
   },
   "devDependencies": {
-    "electron": "^3.0.0-beta.3",
-    "spectron": "^3.8.0"
+    "electron": "^3.0.0-beta.5"
   },
   "scripts": {
-    "run": "NODE_ENV=production .electron app.js"
+    "start": "./node_modules/.bin/electron.cmd ./app.js"
   },
   "repository": {
     "type": "git",

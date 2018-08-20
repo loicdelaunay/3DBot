@@ -6,7 +6,7 @@ class discordMusic {
         if (msg.member.voiceChannel) {
             msg.member.voiceChannel.join().then(connection => { //
                 var music = connection.playArbitraryInput(url);
-                music.setVolume(0.5);
+                music.setVolume(1);
             }).catch(console.log);
         } else {
             msg.reply('Il faut dabord rejoindre un channel avant!');
@@ -16,8 +16,8 @@ class discordMusic {
     playmusic(songname, msg) {
         if (msg.member.voiceChannel) {
             msg.member.voiceChannel.join().then(connection => { //
-                var music = connection.playArbitraryInput(url);
-                music.setVolume(0.5);
+                var music = connection.playFile(global.appRoot + '/data/music/' + songname);
+                music.setVolume(1);
             }).catch(console.log);
         } else {
             msg.reply('Il faut dabord rejoindre un channel avant!');

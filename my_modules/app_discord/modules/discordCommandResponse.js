@@ -48,6 +48,11 @@ class discordCommandResponse {
                 global.module.discord.music.playmusicurl(args[1],message);
                 break;
 
+
+            case 'playmusic':
+                global.module.discord.music.playmusic(args[1],message);
+                break;
+
             //Aide par défaut
             default:
                 global.module.discord.embed.sendInfo(message.channel);

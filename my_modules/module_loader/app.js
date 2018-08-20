@@ -1,77 +1,77 @@
 global.module = [];
 global.mymodule = [];
 
-console.log('\n/**** Starting 3Dbot ' + global.config.versionApp + ' ... ****/');
+console.log('\n/**** Lancement de 3Dbot ' + global.config.versionApp + ' ... ****/');
 
-console.log('\n-------------- Loading modules --------------\n');
+console.log('\n-------------- Chargement des modules... --------------\n');
 
 try{
 
-    console.log('loading path ...');
+    console.log('chargement de path ...');
     global.module.path = require('path');
     global.appRoot = global.module.path.dirname(require.main.filename);
 
-    console.log('loading log manager ...');
+    console.log('chargement de log manager ...');
     global.mymodule.logmanager = require(global.appRoot + '/my_modules/log_manager/app');
 
-    console.log('loading filesytem ...');
+    console.log('chargement de filesytem ...');
     global.module.fs = require('fs');
 
-    console.log('loading my enumerator ...');
+    console.log('chargement de my enumerator ...');
     require(global.appRoot + '/my_modules/my_enumerator/app');
 
-    console.log('loading my class ...');
+    console.log('chargement de my class ...');
     require(global.appRoot + '/my_modules/my_class/app');
 
-    console.log('loading mongodb ...');
+    console.log('chargement de mongodb ...');
     global.module.mongoClient = require('mongodb').MongoClient;
 
-    console.log('loading electron ...');
+    console.log('chargement de electron ...');
     global.module.electron = require('electron');
 
-    console.log('loading electron app ...');
+    console.log('chargement de electron app ...');
     global.module.electron_app = global.module.electron.app;
 
-    console.log('loading electron browser window ...');
+    console.log('chargement de electron browser window ...');
     global.module.electron_browserWindow = global.module.electron.BrowserWindow;
 
-    console.log('loading electron ipc ...');
+    console.log('chargement de electron ipc ...');
     global.module.electron_ipcMain = global.module.electron.ipcMain;
 
-    console.log('loading electron remote ...');
+    console.log('chargement de electron remote ...');
     global.module.electron_remote = global.module.electron.remote;
 
-    console.log('loading express ...');
+    console.log('chargement de express ...');
     global.module.express = require('express');
     global.module.express_app = global.module.express();
 
-    console.log('loading http module ...');
+    console.log('chargement de http module ...');
     global.module.http = require('http').Server(global.module.express_app);
 
-    console.log('loading socket.io ...');
+    console.log('chargement de socket.io ...');
     global.module.io = require('socket.io')(global.module.http);
 
-    console.log('loading discord js ...');
+    console.log('chargement de discord js ...');
     global.module.discord = require('discord.js');
 
-    console.log('loading my electron app ...');
+    console.log('chargement de my electron app ...');
     global.mymodule.electron_app = require(global.appRoot + '/my_modules/app_electron/app');
 
-    console.log('loading my express app ...');
+    console.log('chargement de my express app ...');
     global.mymodule.express_app = require(global.appRoot + '/my_modules/app_express/app');
 
-    console.log('loading my mongodb app ...');
+    console.log('chargement de my mongodb app ...');
     global.mymodule.mongodb_app = require(global.appRoot + '/my_modules/app_mongodb/app');
 
-    console.log('loading my discord app ...');
+    console.log('chargement de my discord app ...');
     global.mymodule.discord_app = require(global.appRoot + '/my_modules/app_discord/app');
 
-    console.log('loading my socket io app ...');
+    console.log('chargement de my socket io app ...');
     global.mymodule.socketio = require(global.appRoot + '/my_modules/app_socketio/app');
 
-    console.log('All modules are loaded !');
+    console.log('Tous les modules on été chargé !');
 }catch (e) {
-    console.error('Error loading module ' + e)
+    console.error('Erreur pendant le chargement des modules ' + e)
 }
 
 console.log('\n--------------- Loading modules done ---------------\n');
