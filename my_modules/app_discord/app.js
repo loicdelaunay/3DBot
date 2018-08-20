@@ -3,6 +3,7 @@ global.module.discord.messageResponse = require(global.appRoot + '/my_modules/ap
 global.module.discord.commandResponse = require(global.appRoot + '/my_modules/app_discord/modules/discordCommandResponse');
 global.module.discord.embed = require(global.appRoot + '/my_modules/app_discord/modules/discordEmbed');
 global.module.discord.permission = require(global.appRoot + '/my_modules/app_discord/modules/discordPermission');
+global.module.discord.music = require(global.appRoot + '/my_modules/app_discord/modules/discordMusic');
 
 global.module.discord.bot.on('ready', function () {
     global.mymodule.logmanager.addLog('Bot Discord Ready', global.enum.type.success, global.enum.context.discordjs);

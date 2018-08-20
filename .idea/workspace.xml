@@ -2,8 +2,793 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0faf22e0-cb22-46a2-b74f-5dc5fd80cd8f" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/my_modules/app_discord/modules/discordMusic.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/index.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_modules/app_discord/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/my_modules/app_discord/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my_modules/app_discord/modules/discordCommandResponse.js" beforeDir="false" afterPath="$PROJECT_DIR$/my_modules/app_discord/modules/discordCommandResponse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bindings/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bindings/bindings.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bindings/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bson/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bson/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/commander/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/commander/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/commander/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/commander/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/commander/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/commander/typings/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mongodb-core/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mongodb-core/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/doc/asyncworker.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/doc/buffers.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/doc/callback.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/doc/converters.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/doc/errors.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/doc/json.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/doc/maybe_types.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/doc/methods.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/doc/new.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/doc/node_misc.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/doc/object_wrappers.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/doc/persistent.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/doc/scopes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/doc/script.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/doc/string_bytes.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/doc/v8_internals.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/doc/v8_misc.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/include_dirs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/nan.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/nan_callbacks.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/nan_callbacks_12_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/nan_callbacks_pre_12_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/nan_converters.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/nan_converters_43_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/nan_converters_pre_43_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/nan_define_own_property_helper.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/nan_implementation_12_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/nan_implementation_pre_12_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/nan_json.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/nan_maybe_43_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/nan_maybe_pre_43_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/nan_new.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/nan_object_wrap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/nan_persistent_12_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/nan_persistent_pre_12_inl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/nan_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/nan_string_bytes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/nan_typedarray_contents.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/nan_weak.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/tools/1to2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/tools/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nan/tools/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/bin/opusdec-js.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/bin/opusenc-js.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/binding.gyp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/Release/libopus.lib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/Release/node-opus.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/Release/node-opus.iobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/Release/node-opus.ipdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/Release/node-opus.lib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/Release/node-opus.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/Release/node-opus.node" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/Release/node-opus.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/Release/obj/node-opus/node-opus.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/Release/obj/node-opus/node-opus.tlog/CL.19524.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/Release/obj/node-opus/node-opus.tlog/CL.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/Release/obj/node-opus/node-opus.tlog/CL.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/Release/obj/node-opus/node-opus.tlog/link.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/Release/obj/node-opus/node-opus.tlog/link.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/Release/obj/node-opus/node-opus.tlog/link.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/Release/obj/node-opus/node-opus.tlog/node-opus.lastbuildstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/Release/obj/node-opus/node-opus.tlog/node-opus.write.1u.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/Release/obj/node-opus/vc140.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/Release/obj/node-opus/win_delay_load_hook.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/binding.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/config.gypi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/A2NLSF.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/CNG.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/HP_variable_cutoff.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/LPC_analysis_filter.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/LPC_analysis_filter_FLP.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/LPC_inv_pred_gain.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/LPC_inv_pred_gain_FLP.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/LP_variable_cutoff.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/LTP_analysis_filter_FLP.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/LTP_scale_ctrl_FLP.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/NLSF2A.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/NLSF_VQ.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/NLSF_VQ_weights_laroia.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/NLSF_decode.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/NLSF_del_dec_quant.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/NLSF_encode.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/NLSF_stabilize.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/NLSF_unpack.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/NSQ.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/NSQ_del_dec.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/PLC.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/VAD.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/VQ_WMat_EC.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/ana_filt_bank_1.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/analysis.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/apply_sine_window_FLP.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/autocorrelation_FLP.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/bands.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/biquad_alt.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/burg_modified_FLP.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/bwexpander.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/bwexpander_32.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/bwexpander_FLP.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/celt.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/celt_decoder.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/celt_encoder.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/celt_lpc.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/check_control_input.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/code_signs.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/control_SNR.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/control_audio_bandwidth.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/control_codec.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/corrMatrix_FLP.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/cwrs.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/debug.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/dec_API.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/decode_core.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/decode_frame.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/decode_indices.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/decode_parameters.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/decode_pitch.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/decode_pulses.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/decoder_set_fs.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/enc_API.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/encode_frame_FLP.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/encode_indices.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/encode_pulses.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/energy_FLP.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/entcode.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/entdec.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/entenc.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/find_LPC_FLP.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/find_LTP_FLP.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/find_pitch_lags_FLP.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/find_pred_coefs_FLP.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/gain_quant.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/init_decoder.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/init_encoder.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/inner_prod_aligned.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/inner_product_FLP.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/interpolate.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/k2a_FLP.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/kiss_fft.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/laplace.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/levinsondurbin_FLP.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/libopus.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/libopus.tlog/CL.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/libopus.tlog/CL.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/libopus.tlog/CL.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/libopus.tlog/Lib-link.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/libopus.tlog/Lib-link.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/libopus.tlog/lib.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/libopus.tlog/libopus.lastbuildstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/lin2log.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/log2lin.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/mathops.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/mdct.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/mlp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/mlp_data.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/modes.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/noise_shape_analysis_FLP.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/opus.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/opus_decoder.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/opus_encoder.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/opus_multistream.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/opus_multistream_decoder.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/opus_multistream_encoder.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/pitch.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/pitch_analysis_core_FLP.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/pitch_est_tables.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/prefilter_FLP.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/process_NLSFs.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/process_gains_FLP.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/quant_LTP_gains.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/quant_bands.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/rate.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/regularize_correlations_FLP.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/repacketizer.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/resampler.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/resampler_down2.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/resampler_down2_3.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/resampler_private_AR2.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/resampler_private_IIR_FIR.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/resampler_private_down_FIR.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/resampler_private_up2_HQ.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/resampler_rom.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/residual_energy_FLP.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/scale_copy_vector_FLP.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/scale_vector_FLP.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/schur_FLP.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/shell_coder.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/sigm_Q15.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/solve_LS_FLP.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/sort.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/sort_FLP.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/stereo_LR_to_MS.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/stereo_MS_to_LR.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/stereo_decode_pred.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/stereo_encode_pred.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/stereo_find_predictor.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/stereo_quant_pred.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/sum_sqr_shift.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/table_LSF_cos.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/tables_LTP.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/tables_NLSF_CB_NB_MB.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/tables_NLSF_CB_WB.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/tables_gain.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/tables_other.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/tables_pitch_lag.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/tables_pulses_per_block.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/vq.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/warped_autocorrelation_FLP.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/win_delay_load_hook.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/Release/obj/libopus/wrappers_FLP.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/binding.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/libopus.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/deps/libopus.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/node-opus.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/build/node-opus.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/coverage/coverage.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/coverage/lcov-report/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/coverage/lcov-report/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/coverage/lcov-report/node-opus/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/coverage/lcov-report/node-opus/index.js.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/coverage/lcov-report/node-opus/lib/Decoder.js.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/coverage/lcov-report/node-opus/lib/Encoder.js.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/coverage/lcov-report/node-opus/lib/OpusEncoder.js.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/coverage/lcov-report/node-opus/lib/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/coverage/lcov-report/prettify.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/coverage/lcov-report/prettify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/coverage/lcov-report/sort-arrow-sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/coverage/lcov-report/sorter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/coverage/lcov.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/binding.gyp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/config/opus/freebsd/x64/config.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/config/opus/linux/arm/config.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/config/opus/linux/arm64/config.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/config/opus/linux/ia32/config.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/config/opus/linux/x64/config.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/config/opus/mac/x64/config.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/config/opus/win/x64/config.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/config/opus/win/x64/version.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/AUTHORS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/COPYING" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/ChangeLog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/INSTALL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/Makefile.mips" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/Makefile.unix" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/NEWS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/aclocal.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/_kiss_fft_guts.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/arch.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/arm/arm2gnu.pl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/arm/arm_celt_map.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/arm/armcpu.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/arm/armcpu.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/arm/armopts.s.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/arm/celt_ne10_fft.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/arm/celt_ne10_mdct.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/arm/celt_neon_intr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/arm/celt_pitch_xcorr_arm-gnu.S" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/arm/celt_pitch_xcorr_arm.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/arm/fft_arm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/arm/fixed_armv4.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/arm/fixed_armv5e.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/arm/kiss_fft_armv4.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/arm/kiss_fft_armv5e.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/arm/mdct_arm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/arm/pitch_arm.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/bands.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/bands.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/celt.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/celt.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/celt_decoder.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/celt_encoder.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/celt_lpc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/celt_lpc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/cpu_support.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/cwrs.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/cwrs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/ecintrin.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/entcode.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/entcode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/entdec.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/entdec.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/entenc.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/entenc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/fixed_debug.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/fixed_generic.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/float_cast.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/kiss_fft.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/kiss_fft.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/laplace.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/laplace.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/mathops.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/mathops.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/mdct.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/mdct.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/mfrngcod.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/mips/celt_mipsr1.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/mips/fixed_generic_mipsr1.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/mips/kiss_fft_mipsr1.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/mips/mdct_mipsr1.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/mips/pitch_mipsr1.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/mips/vq_mipsr1.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/modes.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/modes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/opus_custom_demo.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/os_support.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/pitch.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/pitch.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/quant_bands.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/quant_bands.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/rate.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/rate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/stack_alloc.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/static_modes_fixed.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/static_modes_fixed_arm_ne10.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/static_modes_float.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/static_modes_float_arm_ne10.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/tests/test_unit_cwrs32.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/tests/test_unit_dft.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/tests/test_unit_entropy.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/tests/test_unit_laplace.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/tests/test_unit_mathops.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/tests/test_unit_mdct.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/tests/test_unit_rotation.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/tests/test_unit_types.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/vq.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/vq.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/x86/celt_lpc_sse.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/x86/celt_lpc_sse.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/x86/pitch_sse.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/x86/pitch_sse.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/x86/pitch_sse2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/x86/pitch_sse4_1.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/x86/x86_celt_map.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/x86/x86cpu.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt/x86/x86cpu.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt_headers.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/celt_sources.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/compile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/config.guess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/config.h.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/config.sub" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/configure" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/configure.ac" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/depcomp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/doc/Doxyfile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/doc/Makefile.am" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/doc/Makefile.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/doc/TODO" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/doc/customdoxygen.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/doc/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/doc/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/doc/opus_logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/doc/trivial_example.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/include/opus.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/include/opus_custom.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/include/opus_defines.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/include/opus_multistream.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/include/opus_types.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/install-sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/ltmain.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/m4/as-gcc-inline-assembly.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/m4/libtool.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/m4/ltoptions.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/m4/ltsugar.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/m4/ltversion.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/m4/lt~obsolete.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/m4/opus-intrinsics.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/missing" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/opus-uninstalled.pc.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/opus.m4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/opus.pc.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/opus_headers.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/opus_sources.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/package_version" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/A2NLSF.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/API.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/CNG.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/HP_variable_cutoff.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/Inlines.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/LPC_analysis_filter.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/LPC_inv_pred_gain.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/LP_variable_cutoff.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/MacroCount.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/MacroDebug.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/NLSF2A.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/NLSF_VQ.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/NLSF_VQ_weights_laroia.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/NLSF_decode.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/NLSF_del_dec_quant.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/NLSF_encode.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/NLSF_stabilize.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/NLSF_unpack.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/NSQ.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/NSQ_del_dec.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/PLC.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/PLC.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/SigProc_FIX.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/VAD.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/VQ_WMat_EC.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/ana_filt_bank_1.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/arm/SigProc_FIX_armv4.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/arm/SigProc_FIX_armv5e.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/arm/macros_armv4.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/arm/macros_armv5e.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/biquad_alt.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/bwexpander.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/bwexpander_32.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/check_control_input.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/code_signs.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/control.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/control_SNR.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/control_audio_bandwidth.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/control_codec.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/debug.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/debug.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/dec_API.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/decode_core.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/decode_frame.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/decode_indices.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/decode_parameters.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/decode_pitch.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/decode_pulses.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/decoder_set_fs.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/define.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/enc_API.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/encode_indices.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/encode_pulses.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/errors.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/fixed/LTP_analysis_filter_FIX.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/fixed/LTP_scale_ctrl_FIX.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/fixed/apply_sine_window_FIX.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/fixed/autocorr_FIX.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/fixed/burg_modified_FIX.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/fixed/corrMatrix_FIX.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/fixed/encode_frame_FIX.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/fixed/find_LPC_FIX.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/fixed/find_LTP_FIX.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/fixed/find_pitch_lags_FIX.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/fixed/find_pred_coefs_FIX.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/fixed/k2a_FIX.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/fixed/k2a_Q16_FIX.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/fixed/main_FIX.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/fixed/mips/noise_shape_analysis_FIX_mipsr1.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/fixed/mips/prefilter_FIX_mipsr1.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/fixed/mips/warped_autocorrelation_FIX_mipsr1.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/fixed/noise_shape_analysis_FIX.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/fixed/pitch_analysis_core_FIX.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/fixed/prefilter_FIX.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/fixed/process_gains_FIX.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/fixed/regularize_correlations_FIX.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/fixed/residual_energy16_FIX.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/fixed/residual_energy_FIX.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/fixed/schur64_FIX.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/fixed/schur_FIX.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/fixed/solve_LS_FIX.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/fixed/structs_FIX.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/fixed/vector_ops_FIX.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/fixed/warped_autocorrelation_FIX.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/fixed/x86/burg_modified_FIX_sse.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/fixed/x86/prefilter_FIX_sse.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/fixed/x86/vector_ops_FIX_sse.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/float/LPC_analysis_filter_FLP.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/float/LPC_inv_pred_gain_FLP.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/float/LTP_analysis_filter_FLP.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/float/LTP_scale_ctrl_FLP.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/float/SigProc_FLP.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/float/apply_sine_window_FLP.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/float/autocorrelation_FLP.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/float/burg_modified_FLP.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/float/bwexpander_FLP.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/float/corrMatrix_FLP.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/float/encode_frame_FLP.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/float/energy_FLP.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/float/find_LPC_FLP.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/float/find_LTP_FLP.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/float/find_pitch_lags_FLP.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/float/find_pred_coefs_FLP.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/float/inner_product_FLP.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/float/k2a_FLP.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/float/levinsondurbin_FLP.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/float/main_FLP.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/float/noise_shape_analysis_FLP.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/float/pitch_analysis_core_FLP.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/float/prefilter_FLP.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/float/process_gains_FLP.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/float/regularize_correlations_FLP.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/float/residual_energy_FLP.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/float/scale_copy_vector_FLP.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/float/scale_vector_FLP.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/float/schur_FLP.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/float/solve_LS_FLP.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/float/sort_FLP.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/float/structs_FLP.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/float/warped_autocorrelation_FLP.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/float/wrappers_FLP.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/gain_quant.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/init_decoder.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/init_encoder.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/inner_prod_aligned.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/interpolate.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/lin2log.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/log2lin.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/macros.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/main.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/mips/NSQ_del_dec_mipsr1.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/mips/macros_mipsr1.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/mips/sigproc_fix_mipsr1.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/pitch_est_defines.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/pitch_est_tables.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/process_NLSFs.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/quant_LTP_gains.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/resampler.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/resampler_down2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/resampler_down2_3.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/resampler_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/resampler_private_AR2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/resampler_private_IIR_FIR.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/resampler_private_down_FIR.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/resampler_private_up2_HQ.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/resampler_rom.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/resampler_rom.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/resampler_structs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/shell_coder.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/sigm_Q15.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/sort.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/stereo_LR_to_MS.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/stereo_MS_to_LR.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/stereo_decode_pred.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/stereo_encode_pred.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/stereo_find_predictor.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/stereo_quant_pred.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/structs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/sum_sqr_shift.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/table_LSF_cos.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/tables.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/tables_LTP.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/tables_NLSF_CB_NB_MB.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/tables_NLSF_CB_WB.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/tables_gain.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/tables_other.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/tables_pitch_lag.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/tables_pulses_per_block.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/tuning_parameters.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/typedef.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/x86/NSQ_del_dec_sse.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/x86/NSQ_sse.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/x86/SigProc_FIX_sse.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/x86/VAD_sse.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/x86/VQ_WMat_EC_sse.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/x86/main_sse.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk/x86/x86_silk_map.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk_headers.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/silk_sources.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/src/analysis.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/src/analysis.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/src/mlp.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/src/mlp.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/src/mlp_data.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/src/opus.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/src/opus_compare.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/src/opus_decoder.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/src/opus_demo.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/src/opus_encoder.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/src/opus_multistream.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/src/opus_multistream_decoder.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/src/opus_multistream_encoder.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/src/opus_private.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/src/repacketizer.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/src/repacketizer_demo.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/src/tansig_table.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/test-driver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/tests/run_vectors.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/tests/test_opus_api.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/tests/test_opus_common.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/tests/test_opus_decode.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/tests/test_opus_encode.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/tests/test_opus_padding.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/version.mk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/win32/VS2010/celt.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/win32/VS2010/celt.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/win32/VS2010/opus.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/win32/VS2010/opus.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/win32/VS2010/opus.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/win32/VS2010/opus_demo.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/win32/VS2010/opus_demo.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/win32/VS2010/silk_common.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/win32/VS2010/silk_common.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/win32/VS2010/silk_fixed.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/win32/VS2010/silk_fixed.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/win32/VS2010/silk_float.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/win32/VS2010/silk_float.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/win32/VS2010/test_opus_api.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/win32/VS2010/test_opus_api.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/win32/VS2010/test_opus_decode.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/win32/VS2010/test_opus_decode.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/win32/VS2010/test_opus_encode.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/win32/VS2010/test_opus_encode.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/win32/config.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/deps/opus/win32/genversion.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/examples/mp3-to-ogg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/examples/stream-to-alsa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/lib/Decoder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/lib/Encoder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/lib/OpusEncoder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/src/common.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/src/node-opus.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/test/Decoder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/test/Encoder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/test/data/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/test/data/generate_audio.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/test/data/random-48000-1-20-48000-1.raw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/test/data/random-48000-1-20-48000-2.raw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/test/data/random-48000-1-20-8000-1.raw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/test/data/random-48000-1-20-8000-2.raw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/test/data/random-48000-2-20-48000-1.raw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/test/data/random-48000-2-20-48000-2.raw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/test/data/random-48000-2-20-8000-1.raw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/test/data/random-48000-2-20-8000-2.raw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/test/data/random-8000-1-20-48000-1.raw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/test/data/random-8000-1-20-48000-2.raw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/test/data/random-8000-1-20-8000-1.raw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/test/data/random-8000-1-20-8000-2.raw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/test/data/random-8000-2-20-48000-1.raw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/test/data/random-8000-2-20-48000-2.raw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/test/data/random-8000-2-20-8000-1.raw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/test/data/random-8000-2-20-8000-2.raw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/test/data/random.raw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/test/data/sine-48000-1-20-48000-1.raw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/test/data/sine-48000-1-20-48000-2.raw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/test/data/sine-48000-1-20-8000-1.raw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/test/data/sine-48000-1-20-8000-2.raw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/test/data/sine-48000-2-20-48000-1.raw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/test/data/sine-48000-2-20-48000-2.raw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/test/data/sine-48000-2-20-8000-1.raw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/test/data/sine-48000-2-20-8000-2.raw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/test/data/sine-8000-1-20-48000-1.raw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/test/data/sine-8000-1-20-48000-2.raw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/test/data/sine-8000-1-20-8000-1.raw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/test/data/sine-8000-1-20-8000-2.raw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/test/data/sine-8000-2-20-48000-1.raw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/test/data/sine-8000-2-20-48000-2.raw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/test/data/sine-8000-2-20-8000-1.raw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/test/data/sine-8000-2-20-8000-2.raw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/test/data/sine.raw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/test/old/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/test/old/decode-file.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-opus/test/old/encode-file.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ogg-packet/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ogg-packet/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ogg-packet/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ogg-packet/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prism-media/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prism-media/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/prism-media/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prism-media/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/prism-media/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prism-media/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/prism-media/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prism-media/src/Prism.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/prism-media/src/Prism.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prism-media/src/opus/OggOpus.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/prism-media/src/opus/OggOpus.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prism-media/src/transcoders/MediaTranscoder.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/prism-media/src/transcoders/MediaTranscoder.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prism-media/src/transcoders/ffmpeg/Ffmpeg.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/prism-media/src/transcoders/ffmpeg/Ffmpeg.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prism-media/src/transcoders/ffmpeg/FfmpegProcess.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/prism-media/src/transcoders/ffmpeg/FfmpegProcess.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prism-media/test/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/prism-media/test/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prism-media/test/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/prism-media/test/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref-struct/.jshintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref-struct/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref-struct/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref-struct/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref-struct/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref-struct/appveyor.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref-struct/lib/struct.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref-struct/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/appveyor.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/binding.gyp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/build/Release/binding.exp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/build/Release/binding.iobj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/build/Release/binding.ipdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/build/Release/binding.lib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/build/Release/binding.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/build/Release/binding.node" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/build/Release/binding.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/build/Release/obj/binding/binding.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/build/Release/obj/binding/binding.tlog/CL.25612.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/build/Release/obj/binding/binding.tlog/CL.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/build/Release/obj/binding/binding.tlog/CL.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/build/Release/obj/binding/binding.tlog/binding.lastbuildstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/build/Release/obj/binding/binding.tlog/binding.write.1u.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/build/Release/obj/binding/binding.tlog/link-VCTIP.delete.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/build/Release/obj/binding/binding.tlog/link-VCTIP.delete.47.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/build/Release/obj/binding/binding.tlog/link-VCTIP.delete.63.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/build/Release/obj/binding/binding.tlog/link-VCTIP.delete.7.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/build/Release/obj/binding/binding.tlog/link-VCTIP.delete.75.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/build/Release/obj/binding/binding.tlog/link-VCTIP.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/build/Release/obj/binding/binding.tlog/link-VCTIP.read.11.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/build/Release/obj/binding/binding.tlog/link-VCTIP.read.15.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/build/Release/obj/binding/binding.tlog/link-VCTIP.read.16.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/build/Release/obj/binding/binding.tlog/link-VCTIP.read.23.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/build/Release/obj/binding/binding.tlog/link-VCTIP.read.25.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/build/Release/obj/binding/binding.tlog/link-VCTIP.read.26.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/build/Release/obj/binding/binding.tlog/link-VCTIP.read.27.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/build/Release/obj/binding/binding.tlog/link-VCTIP.read.28.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/build/Release/obj/binding/binding.tlog/link-VCTIP.read.45.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/build/Release/obj/binding/binding.tlog/link-VCTIP.read.47.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/build/Release/obj/binding/binding.tlog/link-VCTIP.read.63.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/build/Release/obj/binding/binding.tlog/link-VCTIP.read.7.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/build/Release/obj/binding/binding.tlog/link-VCTIP.read.75.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/build/Release/obj/binding/binding.tlog/link-VCTIP.read.9.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/build/Release/obj/binding/binding.tlog/link-VCTIP.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/build/Release/obj/binding/binding.tlog/link-VCTIP.write.25.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/build/Release/obj/binding/binding.tlog/link-VCTIP.write.45.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/build/Release/obj/binding/binding.tlog/link-VCTIP.write.47.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/build/Release/obj/binding/binding.tlog/link-VCTIP.write.63.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/build/Release/obj/binding/binding.tlog/link-VCTIP.write.7.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/build/Release/obj/binding/binding.tlog/link-VCTIP.write.75.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/build/Release/obj/binding/binding.tlog/link.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/build/Release/obj/binding/binding.tlog/link.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/build/Release/obj/binding/binding.tlog/link.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/build/Release/obj/binding/vc140.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/build/Release/obj/binding/win_delay_load_hook.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/build/binding.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/build/binding.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/build/binding.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/build/config.gypi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/docs/compile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/docs/gh-pages.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/docs/images/apple-touch-icon-114x114.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/docs/images/apple-touch-icon-72x72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/docs/images/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/docs/images/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/docs/images/ref.pxm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/docs/index.jade" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/docs/scripts/jquery-1.7.2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/docs/scripts/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/docs/stylesheets/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/docs/stylesheets/layout.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/docs/stylesheets/skeleton.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/lib/ref.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/src/binding.cc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/test/address.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/test/alloc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/test/bool.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/test/char.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/test/coerce.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/test/int64.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/test/iojs3issue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/test/isNull.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/test/object.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/test/pointer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/test/ref-deref.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/test/reinterpret.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/test/reinterpretUntilZeros.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/test/string.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/test/types.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ref/test/utf16le.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,21 +832,41 @@
         </counts>
       </usages-collector>
     </session>
-    <session id="758541086">
+    <session id="885743113">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="ejs" value="2" />
+          <entry key="js" value="4" />
+          <entry key="url" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="EJS" value="2" />
+          <entry key="JavaScript" value="4" />
+          <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="42" />
+          <entry key="ejs" value="84" />
+          <entry key="js" value="198" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="42" />
+          <entry key="EJS" value="84" />
+          <entry key="JavaScript" value="198" />
         </counts>
       </usages-collector>
     </session>
@@ -69,46 +874,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my_modules/app_electron/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my_modules/app_discord/modules/discordMessageResponse.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my_modules/app_discord/modules/discordEmbed.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="45" column="48" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="48" />
+            <state relative-caret-position="798">
+              <caret line="42" column="5" selection-start-line="34" selection-start-column="3" selection-end-line="42" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my_modules/module_loader/app.js">
+        <entry file="file://$PROJECT_DIR$/my_modules/my_class/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my_modules/app_express/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="71" selection-start-column="71" selection-end-column="71" />
+            <state relative-caret-position="57">
+              <caret line="3" column="88" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="88" />
             </state>
           </provider>
         </entry>
@@ -116,8 +894,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my_modules/app_discord/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+            <state relative-caret-position="266">
+              <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -140,11 +918,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my_modules/app_discord/modules/discordCommandResponse.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="61" column="19" lean-forward="true" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
+            <state relative-caret-position="950">
+              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/footer.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/index.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="66" lean-forward="true" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my_modules/app_discord/modules/discordMusic.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="532">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
@@ -152,8 +957,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my_modules/app_discord/modules/discordPermission.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state>
+              <caret selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -180,7 +985,6 @@
         <option value="$PROJECT_DIR$/app/js/SocketIO/socket.io_dev.js" />
         <option value="$PROJECT_DIR$/app/js/MyJS/index.js" />
         <option value="$PROJECT_DIR$/app/views/footer.ejs" />
-        <option value="$PROJECT_DIR$/app/views/index.ejs" />
         <option value="$PROJECT_DIR$/my_modules/log_manager.js" />
         <option value="$PROJECT_DIR$/my_modules/log_manager/log_manager.js" />
         <option value="$PROJECT_DIR$/app.js" />
@@ -196,11 +1000,13 @@
         <option value="$PROJECT_DIR$/my_modules/app_discord/modules/discord_autoResponse.js" />
         <option value="$PROJECT_DIR$/my_modules/app_discord/modules/discordMessageResponse.js" />
         <option value="$PROJECT_DIR$/config/app.js" />
-        <option value="$PROJECT_DIR$/my_modules/app_discord/app.js" />
         <option value="$PROJECT_DIR$/my_modules/app_discord/modules/discordPermission.js" />
         <option value="$PROJECT_DIR$/my_modules/module_loader/app.js" />
         <option value="$PROJECT_DIR$/my_modules/app_discord/modules/discordEmbed.js" />
+        <option value="$PROJECT_DIR$/my_modules/app_discord/app.js" />
+        <option value="$PROJECT_DIR$/my_modules/app_discord/modules/discordMusic.js" />
         <option value="$PROJECT_DIR$/my_modules/app_discord/modules/discordCommandResponse.js" />
+        <option value="$PROJECT_DIR$/app/views/index.ejs" />
       </list>
     </option>
   </component>
@@ -241,6 +1047,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -251,79 +1060,28 @@
             <path>
               <item name="3DBot" type="b2602c69:ProjectViewProjectNode" />
               <item name="3DBot" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="3DBot" type="b2602c69:ProjectViewProjectNode" />
               <item name="3DBot" type="462c0819:PsiDirectoryNode" />
-              <item name="my_modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="3DBot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="3DBot" type="462c0819:PsiDirectoryNode" />
-              <item name="my_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="app_discord" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="3DBot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="3DBot" type="462c0819:PsiDirectoryNode" />
-              <item name="my_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="app_discord" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="3DBot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="3DBot" type="462c0819:PsiDirectoryNode" />
-              <item name="my_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="app_electron" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="3DBot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="3DBot" type="462c0819:PsiDirectoryNode" />
-              <item name="my_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="app_mongodb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="3DBot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="3DBot" type="462c0819:PsiDirectoryNode" />
-              <item name="my_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="log_manager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="3DBot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="3DBot" type="462c0819:PsiDirectoryNode" />
-              <item name="my_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="module_loader" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="3DBot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="3DBot" type="462c0819:PsiDirectoryNode" />
-              <item name="my_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="my_class" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="3DBot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="3DBot" type="462c0819:PsiDirectoryNode" />
-              <item name="my_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="my_enumerator" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1532646318444" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534783920628" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="com.chrisrm.idea.config" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -401,12 +1159,16 @@
       <workItem from="1532630106356" duration="167000" />
       <workItem from="1532644541715" duration="1776000" />
       <workItem from="1532958200050" duration="81000" />
-      <workItem from="1533043967328" duration="173000" />
+      <workItem from="1534780585601" duration="270000" />
+      <workItem from="1534781256364" duration="45000" />
+      <workItem from="1534781308782" duration="10000" />
+      <workItem from="1534781745529" duration="2159000" />
+      <workItem from="1534786877471" duration="1547000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27297000" />
+    <option name="totallyTimeSpent" value="31155000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -418,10 +1180,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12726304" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13036565" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -432,15 +1193,15 @@
       <window_info id="Colour Chooser" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32957292" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33279613" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960256" weight="0.3325378" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3996777" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32957292" />
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32957292" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3293556" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.50039744" side_tool="true" visible="true" weight="0.3293556" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32961783" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -452,6 +1213,7 @@
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="SciView" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -498,20 +1260,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/footer.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my_modules/app_socketio/app.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -536,20 +1284,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my_modules/my_class/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="88" lean-forward="true" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_modules/log_manager/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="86" selection-start-line="86" selection-end-line="86" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my_modules/my_enumerator/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -571,20 +1305,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my_modules/app_discord/modules/discordEmbed.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="45" column="48" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_modules/module_loader/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my_modules/app_express/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -592,10 +1312,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/my_modules/module_loader/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/306 berline - Recherche Google.url">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_modules/log_manager/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1634">
+          <caret line="86" selection-start-line="86" selection-end-line="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_modules/app_discord/modules/discordEmbed.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="42" column="5" selection-start-line="34" selection-start-column="3" selection-end-line="42" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_modules/my_class/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="88" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/my_modules/app_discord/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        <state relative-caret-position="266">
+          <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
         </state>
       </provider>
     </entry>
@@ -615,15 +1366,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/my_modules/app_discord/modules/discordPermission.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state>
+          <caret selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_modules/app_discord/modules/discordMusic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/my_modules/app_discord/modules/discordCommandResponse.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="61" column="19" lean-forward="true" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
+        <state relative-caret-position="950">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/footer.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="66" lean-forward="true" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
         </state>
       </provider>
     </entry>

@@ -5,15 +5,15 @@ class discordCommandResponse {
     give(message) {
 
         let args = message.content.split(' ');
-        let command = args[0].replace(global.config.discordCommand,'');
+        let command = args[0].replace(global.config.discordCommand, '');
         let permission = global.module.discord.permission.getPermission(message.author.id);
 
         switch (command) {
 
             //Lancé de dès aléatoire
             case 'roll':
-                let valeurs = roll(args[1],args[2]);
-                global.module.discord.embed.sendRoll(valeurs,message.channel);
+                let valeurs = roll(args[1], args[2]);
+                global.module.discord.embed.sendRoll(valeurs, message.channel);
                 break;
 
             // Retourne l'id d'une personne
@@ -27,20 +27,26 @@ class discordCommandResponse {
                 break;
 
             case 'restart':
-                if(permission<5){
+                if (permission < 5) {
                     message.reply("Vous n'avez pas le niveau de permission pour cela");
-                }else{
+                } else {
                     message.reply('restart en cours...');
                     restart();
                 }
+                break;
 
             case 'stop':
-                if(permission<5){
+                if (permission < 5) {
                     message.reply("Vous n'avez pas le niveau de permission pour cela");
-                }else{
+                } else {
                     message.reply('arret en cours...');
                     global.module.electron_app.exit(0);
                 }
+                break;
+
+            case 'playmusicurl':
+                global.module.discord.music.playmusicurl(args[1],message);
+                break;
 
             //Aide par défaut
             default:
@@ -49,13 +55,14 @@ class discordCommandResponse {
         }
     }
 }
+
 module.exports = new discordCommandResponse();
 
-function roll(nombreDes,valeurMax){
+function roll(nombreDes, valeurMax) {
 
     let lance = 0;
     let valeurs = [];
-    while(lance<parseInt(nombreDes)){
+    while (lance < parseInt(nombreDes)) {
         valeurs.push(Math.floor(Math.random() * Math.floor(valeurMax)));
         lance++;
     }
