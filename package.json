@@ -10,7 +10,7 @@
     "ejs": "^2.6.1",
     "express": "^4.16.3",
     "libsodium": "^0.7.3",
-    "mongodb": "^3.1.1",
+    "mongodb": "^3.1.13",
     "opusscript": "0.0.6",
     "socket.io": "^2.1.1"
   },
